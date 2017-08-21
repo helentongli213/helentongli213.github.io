@@ -46,11 +46,42 @@ $(document).ready(function(){
 
 	}); 
 
+
 	$("#midterm-x").click(function(){
 		$("#modal-overlay").fadeOut(400, function(){
 			$("#midterm-modal").hide();
 			$("#midterm-pic").show();
 			$("#midterm-x").show();
+		});
+		$('html, body').css({
+    		overflow: 'auto',
+    		height: 'auto'
+		});
+	});
+
+	$("#msp-link").click(function(){
+		$('html, body').animate({
+			scrollTop:$("#projects").position().top
+		}, 1000);
+		$("#modal-overlay").fadeIn(400, function(){
+			$("#msp-modal").show();
+			$("#msp-pic-one").show();
+			$("#msp-pic-two").show();
+			$("#msp-pic-three").show();
+			$("#msp-x").show();
+		});
+		$('html, body').css({
+    		overflow: 'hidden',
+    		height: '100%'
+		});
+
+	}); 
+
+	$("#msp-x").click(function(){
+		$("#modal-overlay").fadeOut(400, function(){
+			$("#msp-modal").hide();
+			$("#msp-pic").show();
+			$("#msp-x").show();
 		});
 		$('html, body').css({
     		overflow: 'auto',
