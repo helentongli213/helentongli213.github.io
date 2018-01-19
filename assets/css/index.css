@@ -149,33 +149,66 @@ body {
 	font-size: 20px;
 }
 
-.work-item-info{
+#anova-info{
 	position: relative;
 	margin-top: 15px;
 	font-size: 20px;
 	padding-right: 50%;
 }
 
+#partone {
+	margin-top: 15px;
+}
+
 #parttwo{
 	margin-top: 15px;
 }
 
-#cg-photo{
+#anova-photo{
 	float: right;
 	position: relative;
 	top: -400px;
-	width: 270px;
+	width: 220px;
 	right: 100px;
+}
+
+#socialslice{
+	position: relative;
+	top: -250px;
+	float: right;
+	font-size: 20px;
+}
+
+#socialslice-photo{
+	position: relative;
+	float: left;
+	width: 400px;
+	padding-right: 200px;
+
+}
+
+#dc{
+	position: absolute;
+	font-size: 20px;
+	padding-right: 42%;
+	margin-top: 575px;
+}
+
+#dc-photo{
+	float: right;
+	position: relative;
+	top: -350px;
+	width: 350px;
+	right: -500px;
 }
 
 /* PROJECT CSS */
 
 #projects{
 	position: absolute;
-	top: 300%;
+	top: 410%;
 	height: 100%;
 	background-color: white;
-	width: 100%;
 
 }
 
@@ -183,167 +216,85 @@ body {
 	font-family: 'Amatic SC', cursive;
 	font-size: 60px;
 	position: relative;
-	text-align: center;
+	margin-top: 100px;
+	margin-left: 100px;
 	margin-bottom: 20px;
 }
 
-#project-items{
+#projects-intro{
 	position: relative;
-	margin: 0px 100px 0px 100px;
-}
-
-.project-title{
-	font-family: 'Amatic SC', cursive;
-	font-size: 40px;
-	position: relative;
-
-}
-
-.project-text{
 	font-size: 20px;
-	line-height: 30px;
-	margin-top: 15px;
-	position: relative;
-}
-
-#msp-project{
-	float: right;
-	padding-left: 55%;
-	position: relative;
-	top: 50px;
+	margin-left: 100px;
+	margin-right: 600px;
 
 }
 
-#msp-link{
-	position: relative;
-	float: left;
-	top: -200px;
-	opacity: 0.8;
-	z-index: 550;
-	left: 75px;
-
+#portfolio-button{
+	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	margin-top: 40px;
+	border: solid 1px;
+	text-align: center;
+	padding: 1% 5% 1% 5%;
+    width: 200px;
+    transition: 0.5s;
+    margin-left: 100px;
 }
 
-#msp-link:hover{
-	opacity: 1.0;
+#portfolio-button:hover{
 	cursor: pointer;
-}
-
-#innod-decal{
-	position: relative;
-	margin-top: 10px;
-}
-
-#innod-project{
-	float: left;
-	padding-right: 55%;
-	position: relative;
-	top: -100px;
-
-}
-
-.project-pics{
-	float: right;
-	position: relative;
-	top: -400px;
-	right: 100px;
-}
-
-.indiv-pic{
-	height: 400px;
-	position: relative;
-	margin-right: 30px;
-	opacity: 0.8;
-}
-
-.indiv-pic:hover{
-	opacity: 1.0;
-	cursor: pointer;
-}
-
-#wdd{
-	position: relative;
-
-}
-
-#wdd-project{
-	float: right;
-	padding-left: 55%;
-	position: relative;
-	top: -300px;
-	z-index: 500;
-}
-
-#website{
-	width: 500px;
-	position: relative;
-	float: left;
-	top: -500px;
-	opacity: 0.8;
-	z-index: 550;
-}
-
-#website:hover{
 	opacity: 1;
-	cursor: pointer;
+	border: solid 2px;
 }
 
-#bjc{
+#christoria{
 	position: relative;
-	top: 1150px;
-	left: -290px;
-}
-
-#video{
-	position: relative;
+	top: -350px;
+	width: 350px;
 	float: right;
-	top: -1250px;
-	left: 200px;
+	margin-right: 100px;
 }
 
-#bjc-project{
-	padding-right: 320px;
-}
 
 /* CONTACT CSS */
 
 #contact{
 	position: absolute;
-	top: 570%;
 	height: 100%;
+	top: 500%;
 	background-color: white;
-	width: 100%;
-	margin-left: 100px;
-	margin-right: 100px;
-	z-index:900;
 }
 
 #contact-title{
 	font-family: 'Amatic SC', cursive;
 	font-size: 60px;
-	position: relative;
-	float: left;
 
 }
 
-.contact-left{
-	position: absolute;
+#contact-left{
+	margin-left: 35px;
+	margin-top: 50px;
+}
+
+#contact-right{
+	position: relative;
+	float: right;
+	margin-right: -85%;
+	margin-top: -50%;
 }
 
 
 #contact-info{
-	position: relative;
-	top: 100px;
-	left: -182px;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 #contact-list{
 	position: relative;
 	float: left;
-	top: 120px;
-	left: -182px;
+	margin-top: 20px;
 }
+
 .contact-link{
 	height: 50px;
 	opacity: 0.8;
@@ -371,80 +322,9 @@ a{
 #contact-pic{
 	height: 425px;
 	position: relative;
-	float: right;
-	right: 200px;
 	opacity: 0.9;
 	transform: rotate(90deg);
 	top: 50px;
 }
 
-/* MODAL CSS */
-
-#modal-overlay{
-	top: 300%;
-	display: none;
-	width: 120%;
-	height: 100%;
-	background-color:  rgba(0, 0, 0, 0.5);
-	opacity: 50%;
-	position: absolute;
-	z-index: 1000;
-}
-
-#midterm-modal{
-	top: 300%;
-	position: absolute;
-	text-align: center;
-	z-index: 1000;
-
-}
-
-#midterm-pic{
-	display: none;
-	height: 600px;
-	position: relative;
-	top: 86px;
-	left: 100%;
-
-}
-
-#midterm-x{
-	display: none;
-	height: 50px;
-	position: relative;
-	top: -530px;
-	left: 20px;
-}
-
-#midterm-x:hover{
-	cursor: pointer;
-}
-
-#msp-modal{
-	top: 300%;
-	position: absolute;
-	text-align: center;
-	z-index: 1000;
-}
-
-.msp-pic{
-	display: none;
-	height: 500px;
-	position: relative;
-	top: 100px;
-	left: 15%;
-	margin-right: 20px;
-}
-
-#msp-x{
-	display: none;
-	height: 50px;
-	position: relative;
-	top: -435px;
-	left: 20px;
-}
-
-#msp-x:hover{
-	cursor: pointer;
-}
 

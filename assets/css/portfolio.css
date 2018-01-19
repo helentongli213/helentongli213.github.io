@@ -1,0 +1,65 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: block;
+	margin: 0px 0px 100px 0px;
+	padding: 0px 0px 100px 0px;
+}
+
+/*TOP BAR CSS*/
+
+#topbar {
+	font-size: 25px;
+	width: 100%;
+	position: fixed;
+	background-color: black;
+	color: white;
+	z-index: 1000;
+	opacity: 0.8;
+
+}
+
+.topbar-item{
+	list-style-type: none;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	text-decoration: none;
+}
+
+#nodecor{
+	text-decoration: none;
+	color: white;
+}
+
+
+.topbar-item:hover{
+	cursor: pointer;
+}
+
+/*TITLE*/
+
+#title{
+	position: absolute;
+	width: 100%;
+	top: 10%;
+	height: 100%;
+	z-index: 1;
+	background-color: white;
+}
+
+#hi {
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+	text-align: center;
+	top: 5%;
+	position: relative;
+}
+
+#explanation {
+	font-family: 'Open Sans Condensed';
+	font-size: 20px;
+	position: relative;
+	top: 7%;
+	text-align: center;
+}
