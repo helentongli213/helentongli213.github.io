@@ -81,6 +81,8 @@ body {
 .workpic{
 	height: 400px;
 	float: left;
+	opacity: 0.7;
+	transition: 0.5s;
 }
 
 .singleworktext{
@@ -124,4 +126,9 @@ body {
 
 #infographicpic{
 	padding-left: 60px;
+}
+
+.workpic:hover{
+	cursor: pointer;
+	opacity: 1;
 }
