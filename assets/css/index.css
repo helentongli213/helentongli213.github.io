@@ -37,17 +37,21 @@ body {
 	position: absolute;
 	width: 100%;
 	top: 10%;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 60px;
 	height: 100%;
 	z-index: 1;
 	background-color: white;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 #hi{
 	text-align: center;
 	position: relative;
 	top: 15%;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 #hi-pic{
@@ -59,6 +63,8 @@ body {
 	border-radius: 1000px;
 	z-index: 1;
 	opacity: 1;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 /*ABOUT CSS*/
@@ -87,7 +93,7 @@ body {
 }
 
 #about-title{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC',  serif;
 	font-size: 60px;
 	margin-bottom: 20px;
 }
@@ -98,7 +104,7 @@ body {
 }
 
 #resume-button{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 35px;
 	margin-top: 40px;
 	border: solid 1px;
@@ -119,7 +125,7 @@ body {
 
 #work{
 	position: absolute;
-	top: 200%;
+	top: 220%;
 	height: 100%;
 	width: 100%;
 	background-color: white;
@@ -127,7 +133,7 @@ body {
 }
 
 #work-title{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 60px;
 	position: relative;
 	text-align: center;
@@ -140,7 +146,7 @@ body {
 }
 
 .work-item-title{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 40px;
 
 }
@@ -213,7 +219,7 @@ body {
 }
 
 #projects-title{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 60px;
 	position: relative;
 	margin-top: 100px;
@@ -230,7 +236,7 @@ body {
 }
 
 #portfolio-button{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 35px;
 	margin-top: 40px;
 	border: solid 1px;
@@ -266,7 +272,7 @@ body {
 }
 
 #contact-title{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 60px;
 
 }
@@ -279,7 +285,7 @@ body {
 #contact-right{
 	position: relative;
 	float: right;
-	margin-right: -85%;
+	margin-right: -90%;
 	margin-top: -50%;
 }
 

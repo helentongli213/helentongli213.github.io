@@ -1,8 +1,7 @@
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	display: block;
-	margin: 0px 0px 100px 0px;
-	padding: 0px 0px 100px 0px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 /*TOP BAR CSS*/
@@ -42,24 +41,87 @@ body {
 #title{
 	position: absolute;
 	width: 100%;
-	top: 10%;
-	height: 100%;
+	top: 80px;
 	z-index: 1;
-	background-color: white;
+	background: white;
+	padding: 20px;
 }
 
 #hi {
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC', serif;
 	font-size: 60px;
 	text-align: center;
-	top: 5%;
+	top: 20%;
 	position: relative;
 }
 
 #explanation {
-	font-family: 'Open Sans Condensed';
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
 	position: relative;
-	top: 7%;
+	top: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
 	text-align: center;
+}
+
+/*WORKS*/
+#works {
+	position: relative;
+	top: 380px;
+}
+
+.singlework {
+	padding-left: 100px;
+	padding-right: 100px;
+	position: relative;
+	bottom: 100px;
+}
+
+.workpic{
+	height: 400px;
+	float: left;
+}
+
+.singleworktext{
+	float: right;
+	padding-left: 500px;
+	position: relative;
+	top: -300px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.singleworktitle{
+	font-family: 'Amatic SC', serif;
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+
+#msppic {
+	padding-left: 60px;
+}
+
+#recruitment{
+	padding-left: 60px;
+}
+
+#howmaywetext{
+	padding-left: 580px;
+}
+
+#altoidspic{
+	padding-left: 60px;
+}
+
+#wddpic{
+	height: 300px;
+}
+
+#wddtext{
+	padding-left: 640px;
+}
+
+#infographicpic{
+	padding-left: 60px;
 }
