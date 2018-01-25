@@ -192,27 +192,31 @@ body {
 	padding-right: 200px;
 
 }
-
-#dc{
-	position: absolute;
-	font-size: 20px;
-	padding-right: 42%;
-	margin-top: 575px;
+#dc {
+	display: inline-block;
+	position: relative;
+	top: -180px;
 }
 
-#dc-photo{
-	float: right;
+#dc-photo {
+	width: 400px;
 	position: relative;
-	top: -350px;
-	width: 350px;
-	right: -500px;
+	float: right;
+	padding-left: 200px;
+	top: -390px;
+}
+
+#dc-info {
+	padding-right: 500px;
+	font-size: 20px;
+	float: left;
 }
 
 /* PROJECT CSS */
 
 #projects{
 	position: absolute;
-	top: 410%;
+	top: 460%;
 	height: 100%;
 	background-color: white;
 
@@ -267,7 +271,7 @@ body {
 #contact{
 	position: absolute;
 	height: 100%;
-	top: 500%;
+	top: 570%;
 	background-color: white;
 }
 
