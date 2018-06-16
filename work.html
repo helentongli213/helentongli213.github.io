@@ -1,0 +1,171 @@
+  <!DOCTYPE html>
+
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Main CSS-->
+      <link rel = "stylesheet" type = 'text/css' href = 'style.css'>
+
+      <!--INFO-->
+      <title>Helen Li</title>
+
+      <!--IMPORTED FONTS -->
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300" rel="stylesheet">
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <!--NAV BAR-->
+      <section>
+        <div class="row" id="navbar">
+          <div class="col s1" style="color:white">HTL</div>
+          <div class="col s7"></div>
+          <div class="col s1">
+            <a href="home.html" class="navbar-item">HOME</a>
+          </div>
+          <div class="col s1">
+            <a href="about.html" class="navbar-item">ABOUT</a>
+          </div>
+          <div class="col s1">
+            <a href="work.html" class="navbar-item">WORK</a>
+          </div>
+          <div class="col s1">
+            <a href="contact.html" class="navbar-item">CONTACT</a>
+          </div>
+        </div>
+      </section>
+
+      <!--WORK-->
+      
+      <style>
+        .work-row{
+          margin:0px 100px 25px;
+        }
+
+        .single-work{
+          position:relative;
+          text-align:left;
+          color:transparent;
+          transition:0.5s;
+          margin:0px;
+          padding:0px;
+          font-size:;
+        }
+
+        .single-work:hover{
+          text-shadow: 0 0px white;
+          color:white;
+          cursor:pointer;
+
+        }
+
+        .single-work:hover > .single-work-img{ 
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
+        }
+
+        .single-work-img{
+          width:275px;
+          height:275px;
+          transition:0.5s;
+          background-color:black;
+        }
+
+        .single-work-text{
+          position: absolute;
+          top: 5%;
+          left: 10%;
+          font-size:24px;
+          right:12%;
+          line-height:28px;
+        }
+
+        .single-work-name{
+          margin-bottom:10px;
+        }
+
+
+
+      </style>
+      <section style="margin-top:65px">
+        <div class="row work-row">
+          <div class="col s12 l3 m6 single-work">
+            <img src="assets/images/expensetemplate.png" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">ClickTime Expense Template Page</div>
+              <div class="single-work-description">Web Development, Marketing</div>
+            </div>
+          </div>
+          <div class="col s12 l3 m6 single-work">
+            <img src="assets/images/thebox.png" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">theBox</div>
+              <div class="single-work-description">UX Research & Design</div>
+            </div>
+          </div>
+          <div class="col s12 l3 m6 single-work">
+            <img src="assets/images/anovahacks.png" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">ANova Hacks 2018</div>
+              <div class="single-work-description">Marketing, Graphic Design</div>
+            </div>
+          </div>
+          <div class="col s12 l3 m6 single-work">
+            <img src="assets/images/anovarecruitmentfall2018.jpg" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">Berkeley ANova Fall 2018 Recruitment</div>
+              <div class="single-work-description">Marketing, Graphic Design</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row work-row">
+          <div class="col s12 l3 m6 single-work">
+            <img src="assets/images/howmaywe.jpg" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">How May We...</div>
+              <div class="single-work-description">Human-Centered Design</div>
+            </div>
+          </div>
+          <div class="col s12 l3 m6 single-work">
+            <img src="assets/images/pmt.png" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">Pearl Milk Tea Infographic</div>
+              <div class="single-work-description">Layout and Graphic Design</div>
+            </div>
+          </div>
+          <div class="col s12 l3 m6 single-work">
+            <img src="assets/images/guidetoboba.png" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">Guide To Boba Webpage</div>
+              <div class="single-work-description">Web Design</div>
+            </div>
+          </div>
+          <div class="col s12 l3 m6 single-work">
+            <!--<img src="assets/images/anovarecruitmentfall2018.jpg" class="single-work-img responsive-img">
+            <div class="single-work-text">
+              <div class="single-work-name">Berkeley ANova Fall 2018 Recruitment</div>
+              <div class="single-work-description">Marketing, Graphic Design</div>
+            </div>-->
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    </body>
+  </html>
