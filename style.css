@@ -56,6 +56,11 @@ button:focus{
   font-size:0px;
 }
 
+a {
+  text-decoration:none;
+  color:transparent;
+}
+
 /*NAV-BAR*/
 #navbar {
   padding: 20px 20px 20px 0px;
@@ -80,3 +85,39 @@ button:focus{
   margin: 0px 40px 40px 0px;
   opacity:0.9;
 }
+
+/*WORK PAGES*/
+.work-section-left {
+  text-align:left;
+  margin-right:2rem;
+}
+
+.work-section-right{
+  margin-top:1.78rem;
+  text-align:center;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', serif;
+}
+
+.work-section-img-link{
+  opacity:0.8;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+.work-section-img-link:hover{
+  opacity:1.0;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
+}
+
+span {
+  font-size:24px;
+  margin-right:10px;
+  text-transform:uppercase;
+
+}
+
+

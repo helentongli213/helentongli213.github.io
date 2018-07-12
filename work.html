@@ -49,35 +49,39 @@
       
       <style>
         .work-row{
-          margin:0px 100px 25px;
+          margin:0px 100px 25px 100px;
+          text-align:center;
         }
 
-        .single-work{
+        .work-row .single-work{
           position:relative;
           text-align:left;
           color:transparent;
           transition:0.5s;
-          margin:0px;
+          margin:0px 0px;
           padding:0px;
-          font-size:;
+          
         }
 
-        .single-work:hover{
+        .single-work a {
+          transition: 0.5s;
+        }
+
+        .single-work a:hover {
           text-shadow: 0 0px white;
           color:white;
-          cursor:pointer;
-
         }
 
-        .single-work:hover > .single-work-img{ 
+        .single-work a:hover > .single-work-img{ 
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
         }
 
         .single-work-img{
-          width:275px;
-          height:275px;
+          width:265px;
+          height:265px;
           transition:0.5s;
           background-color:black;
+          cursor:pointer;
         }
 
         .single-work-text{
@@ -85,7 +89,7 @@
           top: 5%;
           left: 10%;
           font-size:24px;
-          right:12%;
+          margin-right:75px;
           line-height:28px;
         }
 
@@ -93,69 +97,83 @@
           margin-bottom:10px;
         }
 
-
-
       </style>
       <section style="margin-top:65px">
         <div class="row work-row">
           <div class="col s12 l3 m6 single-work">
-            <img src="assets/images/expensetemplate.png" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">ClickTime Expense Template Page</div>
-              <div class="single-work-description">Web Development, Marketing</div>
-            </div>
+            <a href="clicktimeintern.html">
+              <img src="assets/images/expensetemplate.png" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">ClickTime Navigational Sidebar</div>
+                <div class="single-work-description">UI/UX Research & Design</div>
+              </div>
+            </a>
           </div>
           <div class="col s12 l3 m6 single-work">
-            <img src="assets/images/thebox.png" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">theBox</div>
-              <div class="single-work-description">UX Research & Design</div>
-            </div>
+            <a href="contentstrategy.html">
+              <img src="assets/images/expensetemplate.png" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">ClickTime Free Content Landing Pages</div>
+                <div class="single-work-description">Web Development, Marketing</div>
+              </div>
+            </a>
           </div>
           <div class="col s12 l3 m6 single-work">
-            <img src="assets/images/anovahacks.png" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">ANova Hacks 2018</div>
-              <div class="single-work-description">Marketing, Graphic Design</div>
-            </div>
+            <a href="thebox.html">
+              <img src="assets/images/thebox.png" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">theBox</div>
+                <div class="single-work-description">UX Research & Design</div>
+              </div>
+            </a>
           </div>
           <div class="col s12 l3 m6 single-work">
-            <img src="assets/images/anovarecruitmentfall2018.jpg" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">Berkeley ANova Fall 2018 Recruitment</div>
-              <div class="single-work-description">Marketing, Graphic Design</div>
-            </div>
+            <a href="anovahacks.html">
+              <img src="assets/images/anovahacks.png" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">ANova Hacks 2018</div>
+                <div class="single-work-description">Marketing, Graphic Design</div>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="row work-row">
           <div class="col s12 l3 m6 single-work">
-            <img src="assets/images/howmaywe.jpg" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">How May We...</div>
-              <div class="single-work-description">Human-Centered Design</div>
-            </div>
+            <a href="recruitmentspring.html">
+              <img src="assets/images/anovarecruitmentfall2018.jpg" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">Berkeley ANova Spring 2018 Recruitment</div>
+                <div class="single-work-description">Marketing, Graphic Design</div>
+              </div>
+            </a>
           </div>
           <div class="col s12 l3 m6 single-work">
-            <img src="assets/images/pmt.png" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">Pearl Milk Tea Infographic</div>
-              <div class="single-work-description">Layout and Graphic Design</div>
-            </div>
+            <a href="howmaywe.html">
+              <img src="assets/images/howmaywe.jpg" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">How May We...</div>
+                <div class="single-work-description">Human-Centered Design</div>
+              </div>
+            </a>
           </div>
           <div class="col s12 l3 m6 single-work">
-            <img src="assets/images/guidetoboba.png" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">Guide To Boba Webpage</div>
-              <div class="single-work-description">Web Design</div>
-            </div>
+            <a href="infographic.html">
+              <img src="assets/images/pmt.png" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">Pearl Milk Tea Infographic</div>
+                <div class="single-work-description">Layout and Graphic Design</div>
+              </div>
+            </a>
           </div>
           <div class="col s12 l3 m6 single-work">
-            <!--<img src="assets/images/anovarecruitmentfall2018.jpg" class="single-work-img responsive-img">
-            <div class="single-work-text">
-              <div class="single-work-name">Berkeley ANova Fall 2018 Recruitment</div>
-              <div class="single-work-description">Marketing, Graphic Design</div>
-            </div>-->
+            <a href="bobaguide.html">
+              <img src="assets/images/guidetoboba.png" class="single-work-img responsive-img">
+              <div class="single-work-text">
+                <div class="single-work-name">Guide To Boba Webpage</div>
+                <div class="single-work-description">Web Design</div>
+              </div>
+            </a>
           </div>
         </div>
       </section>
