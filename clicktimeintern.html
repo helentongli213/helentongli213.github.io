@@ -1,0 +1,104 @@
+  <!DOCTYPE html>
+
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Main CSS-->
+      <link rel = "stylesheet" type = 'text/css' href = 'style.css'>
+
+      <!--INFO-->
+      <title>Helen Li</title>
+
+      <!--IMPORTED FONTS -->
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300" rel="stylesheet">
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <!--NAV BAR-->
+      <section>
+        <div class="row" id="navbar">
+          <div class="col s1" style="color:white">HTL</div>
+          <div class="col s7"></div>
+          <div class="col s1">
+            <a href="index.html" class="navbar-item">HOME</a>
+          </div>
+          <div class="col s1">
+            <a href="about.html" class="navbar-item">ABOUT</a>
+          </div>
+          <div class="col s1">
+            <a href="work.html" class="navbar-item">WORK</a>
+          </div>
+          <div class="col s1">
+            <a href="contact.html" class="navbar-item">CONTACT</a>
+          </div>
+        </div>
+      </section>
+
+      <style>
+
+      .widget-img {
+        width: 60%;
+      }
+
+      #expenses-widget {
+        margin-top:50px;
+        margin-left:300px;
+      }
+
+
+      /*LAPTOPS AND ABOVE*/
+      @media (min-width: 1025px) { 
+
+
+      }
+
+      /*BELOW LAPTOPS*/
+      @media (max-width: 1024px) { 
+        #expenses-widget {
+          margin:0 0 0 20px;
+        }
+        .widget-img {
+          width:45%;
+
+        }
+  
+      }
+  
+      </style>
+
+      <!--WORK SECTION-->
+      <section>
+        <div class="row">
+          <div class="col l5 offset-l1 s10 offset-s1 m10 offset-m1">
+            <div class="work-section-left">
+              <h2 class="work-section-title">ClickTime Sidebar</h2>
+              <p class="work-section-text"><span>Prompt:</span>How may we provide our users with a new form of information and notification and better navigation through the web application, all while fulfilling our personal goal of reimagining ClickTime as a product?  </p>
+              <p class="work-section-text"><span>Solution:</span>A sidebar with individualized widgets will give users an intuitive navigation and information-focused viewpoint as well as provide an opportunity to reimagine how people interact with ClickTime. </p>
+              <p class="work-section-text"><span>Method:</span>We started by researching overall use cases for various ClickTime modules, including Timesheet Entry and Expenses, and exploring the various pros and cons of how the product currently dealt with these needs. Next, we created mockups in MarvelApp, which allowed our developers to easily see the sidebar's userflow. From there, we iterated and expanded on unique use cases alongside our developers until we had a fully-functioning prototype, which we then presented, along with our research, to the entire company.</p>
+            </div>
+          </div>
+          <div class="col l4 s10 offset-s1 m10 offset-m1">
+            <div class="work-section-right">
+              <img src="assets/images/timesheet.png" class="responsive-img bordered-img widget-img" id="timesheet-widget">
+              <img src="assets/images/expenses.png" class="responsive-img bordered-img widget-img" id="expenses-widget">
+            </div>
+          </div>
+        </div>
+
+
+
+        
+      </section>
+    </body>
+  </html>
