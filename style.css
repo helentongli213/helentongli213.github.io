@@ -46,7 +46,7 @@ button:focus{
 }
 
 .right-text{
-  padding: 50px 100px 0px 0px;
+  padding: 4rem 100px 0px 0px;
   text-align:left;
   margin-left: 100px;
 }
@@ -62,23 +62,23 @@ a {
 }
 
 /*NAV-BAR*/
-#navbar {
-  padding: 20px 20px 20px 0px;
-  text-align: center;
-  background: black;
-  opacity:0.8;
-  font-size: 25px;
-  text-decoration:none;
+.brand-logo {
+  left: 25px;
 }
 
-.navbar-item{
-  color:white;
-  text-decoration:none;
+nav ul a {
+  font-size: 25px;
 }
+
+.side-nav li> a {
+  font-size:25px;
+}
+
+
 
 /*GENERAL*/
 .buttons-row{
-  margin: 220px 10px 0px 10px;
+  margin: 15rem 10px 0px 10px;
 }
 
 .button-in-row {
@@ -90,10 +90,11 @@ a {
 .work-section-left {
   text-align:left;
   margin-right:2rem;
+  margin-top: 4rem;
 }
 
 .work-section-right{
-  margin-top:1.78rem;
+  margin-top:4rem;
   text-align:center;
 }
 
@@ -110,7 +111,7 @@ h2 {
 
 .work-section-img-link:hover{
   opacity:1.0;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); 
+  filter: drop-shadow( 3px 3px 5px rgba(0, 0, 0, 0.5)); 
 }
 
 span {
@@ -120,8 +121,8 @@ span {
 
 }
 
-.bordered-img {
-  border:1px solid;
+.non-link-img {
+  filter: drop-shadow( 3px 3px 5px rgba(0, 0, 0, 0.5)); 
 }
 
 

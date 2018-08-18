@@ -27,22 +27,24 @@
 
       <!--NAV BAR-->
       <section>
-        <div class="row" id="navbar">
-          <div class="col s1" style="color:white">HTL</div>
-          <div class="col s7"></div>
-          <div class="col s1">
-            <a href="index.html" class="navbar-item">HOME</a>
+        <nav>
+          <div class="nav-wrapper grey darken-4">
+          <a href="index.html" class="brand-logo">HTL</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="work.html">WORK</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-nav">
+             <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="work.html">WORK</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
           </div>
-          <div class="col s1">
-            <a href="about.html" class="navbar-item">ABOUT</a>
-          </div>
-          <div class="col s1">
-            <a href="work.html" class="navbar-item">WORK</a>
-          </div>
-          <div class="col s1">
-            <a href="contact.html" class="navbar-item">CONTACT</a>
-          </div>
-        </div>
+        </nav>
       </section>
 
       <!--WORK-->
@@ -77,11 +79,18 @@
         }
 
         .single-work-img{
-          width:265px;
-          height:265px;
+          width:90%;
           transition:0.5s;
           background-color:black;
           cursor:pointer;
+        }
+
+        /*BELOW LAPTOPS*/
+        @media (max-width: 1024px) { 
+          .work-row div.single-work {
+            margin-bottom:2rem;
+          }
+    
         }
 
         .single-work-text{
@@ -104,7 +113,7 @@
               <img src="assets/images/internproject.png" class="single-work-img responsive-img">
               <div class="single-work-text">
                 <div class="single-work-name">ClickTime Navigational Sidebar</div>
-                <div class="single-work-description">UI/UX Research & Design</div>
+                <div class="single-work-description">UI/UX Research, Design</div>
               </div>
             </a>
           </div>
@@ -122,7 +131,7 @@
               <img src="assets/images/thebox.png" class="single-work-img responsive-img">
               <div class="single-work-text">
                 <div class="single-work-name">theBox</div>
-                <div class="single-work-description">UX Research & Design</div>
+                <div class="single-work-description">UX Research, Design</div>
               </div>
             </a>
           </div>
@@ -185,4 +194,9 @@
 
 
     </body>
+
+    <!--JAVASCRIPT-->
+    <script>
+      $(document).ready(function(){$(".button-collapse").sideNav();})
+    </script>
   </html>

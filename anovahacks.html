@@ -27,30 +27,45 @@
 
       <!--NAV BAR-->
       <section>
-        <div class="row" id="navbar">
-          <div class="col s1" style="color:white">HTL</div>
-          <div class="col s7"></div>
-          <div class="col s1">
-            <a href="index.html" class="navbar-item">HOME</a>
+        <nav>
+          <div class="nav-wrapper grey darken-4">
+          <a href="index.html" class="brand-logo">HTL</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="work.html">WORK</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-nav">
+             <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="work.html">WORK</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
           </div>
-          <div class="col s1">
-            <a href="about.html" class="navbar-item">ABOUT</a>
-          </div>
-          <div class="col s1">
-            <a href="work.html" class="navbar-item">WORK</a>
-          </div>
-          <div class="col s1">
-            <a href="contact.html" class="navbar-item">CONTACT</a>
-          </div>
-        </div>
+        </nav>
       </section>
 
       <style>
 
       /*LAPTOPS AND ABOVE*/
       @media (min-width: 1025px) { 
+        #anova-sticker{
+                position:relative;
+                left:25%;
+                top: 100px;
+                width:350px;
+              }
+      }
 
-
+      /*BELOW LAPTOPS*/
+      @media (max-width: 1024px) { 
+        #anova-sticker {
+          left:0px;
+          width:350px;
+        }
+  
       }
   
       </style>
@@ -68,7 +83,9 @@
           </div>
           <div class="col l4 s10 offset-s1 m10 offset-m1">
             <div class="work-section-right">
-              
+              <a href="https://www.berkeleyanova.org/anovahacks/" target="_blank">
+                <img src="assets/images/sticker.png" class="responsive-img work-section-img-link" id="anova-sticker">
+              </a>
             </div>
           </div>
         </div>
@@ -78,4 +95,9 @@
         
       </section>
     </body>
+
+    <!--JAVASCRIPT-->
+    <script>
+      $(document).ready(function(){$(".button-collapse").sideNav();})
+    </script>
   </html>
