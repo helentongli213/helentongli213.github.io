@@ -87,16 +87,21 @@ nav ul a {
 }
 
 /*WORK PAGES*/
-.work-section-left {
-  text-align:left;
-  margin-right:2rem;
-  margin-top: 4rem;
+.work-section {
+  margin-top: 2rem;
+
 }
 
-.work-section-right{
-  margin-top:4rem;
-  text-align:center;
+.work-section-title {
+  text-align:left;
+  font-family: 'Amatic SC', serif;
+  margin-bottom: 0;
 }
+
+.work-section-text {
+  text-align: left;
+}
+
 
 h2 {
   text-transform: uppercase;
