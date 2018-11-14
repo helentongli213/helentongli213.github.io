@@ -51,8 +51,28 @@
 
       /*LAPTOPS AND ABOVE*/
       @media (min-width: 1025px) { 
-        #business-budget {
-          margin: 3rem 0 0 7rem;
+        .prelim-img {
+          max-height: 400px;
+          
+        }
+
+        #insights {
+          max-height:400px;
+        }
+
+        .ideation-img{
+          margin: 0rem 1rem 0rem 1rem;
+          max-height:400px;
+        }
+
+        .process-img {
+          margin: 0rem 0.5rem 0rem 0.5rem;
+          max-height:300px;
+        }
+
+        .personal-img {
+          margin: 0rem 1rem;
+          max-height: 400px;
         }
 
       }
@@ -60,22 +80,61 @@
       </style>
 
       <!--WORK SECTION-->
-      <section>
-        <div class="row">
-          <div class="col l5 offset-l1 s10 offset-s1 m10 offset-m1">
-            <div class="work-section-left">
-              <h2 class="work-section-title">TheBox</h2>
-              <p class="work-section-text"><span>Prompt:</span>How can we bring more awareness to the general population of how we portray ourselves on image-based social media (ie. Instagram)? </p>
-              <p class="work-section-text"><span>Solution:</span>People tend to justify their use of image-based social media with the phrase, "An image is worth a thousand words." In other words, for example, if I have 50 images on my social media account, then these images must thus tell a 50,000 word story about me as an individual. TheBox aims to question this mindset by condensing the collection of one person's Instagram images into five tangible objects, forcing us to reconsider the genuine depth of our social media personas. </p>
-              <p class="work-section-text"><span>Method:</span>Our group began by conducting culture probes ranging from captioning random images, editing photos for Instagram, and journaling their thoughts on social media. From this, we ideated the process of TheBox and created a sample product. Using my personal Instagram account, we ran the images through an API that did a reverse Google image search and returned a list of associating nouns. We then surveyed a group of my social media "friends" and asked them to choose 5 nouns they thought best exemplified me. For each of these 5 nouns, we found a representative object which we then placed in a nondescript box that, theoretically, would be sent to the user with no context. </p>
-            </div>
-          </div>
-          <div class="col l5 s10 offset-s1 m10 offset-m1">
-            <div class="work-section-right">
-              <img src="assets/images/thebox_final.jpg" alt="the box" class="responsive-img non-link-img work-section-img">
-            </div>
+     <section>
+        <div class="row work-section">
+          <div class="col l11 offset-l1">
+            <h2 class="work-section-title">TheBox</h2>
           </div>
         </div>
+        <div class ="row work-prelim">
+          <div class="col l11 offset-l1">
+            <p class="work-section-text">Using insights procured from cultural probes to formulate a product that forces users to come to terms with their social media personas. </p>
+          </div>
+        </div>
+        <div class ="row work-prelim-photos">
+          <div class="col l12">
+            <img src="assets/images/thebox/logo.png" class="non-link-img prelim-img" id="box-logo">
+            
+          </div>
+        </div>
+        <div class = "row bulk">
+          <div class = "col l10 offset-l1">
+            <p class="work-section-text"><span>Problem:</span> How may we use cultural probes to generate thoughtful insights? Furthermore, how may these insights help us ideate a hypothetical, absurdist product that engenders conversations about certain societal topics?</p>
+
+            <p class="work-section-text"><span>Solution:</span> People tend to justify their excessive use of photo-based social media (ie. Instagram) with the phrase "a picture is worth a thousand words." Thus, an Instagram account with 50 photos must be worth 50,000 words, painting a deep and intimate picture of the person behind the social media account. However, the heavy photo-editing that goes into Instagram posts seems to refute this and insinuate a lack of genuinity. TheBox aims to illustrate this phenomenon by condensing one's social media persona, supposedly worth thousands of words, into five simple objects that can be placed in a nondescript box, outlining the deeper topics of virtual identity and online personas.</p>
+
+            <p class="work-section-text"><span>Method:</span> We began by conducting two cultural probes on Instagram-users at UC Berkeley. In our first probe, we gave subjects a previously-unseen photograph and asked them to provide a written, journal-like response to the photo and the reactions it evoked. In our second probe, we asked our subjects to choose a random photo from their own photo library, edit it as though they were going to post on social media, and provide reasoning as to why they made certain edits.</p>
+            <img src = "assets/images/thebox/probes.png" class="responsive-img non-link-img landscape-img" id="probes">
+
+            <p class="work-section-text">We took the probes we each indivually conducted and generated various valuable insights. Then, we took these insights, compared them with one another, and categorized them based on topic.</p>
+            <img src = "assets/images/thebox/insights.JPG" class="responsive-img non-link-img landscape-img" id="insights">
+
+            <p class="work-section-text">Based on the various categories and the insights they contained, we ideated several design concepts that addressed topics like photo-editing, filters, and social media personas. Ideas included an auto-editor that adjust lighting, saturation, etc. on a photograph to make it more "desirable" as well as a social media platform with photo-based comments rather than text-based ones. </p>
+            <img src = "assets/images/thebox/autoedits.png" class="responsive-img non-link-img landscape-img ideation-img" id="auto-edits">
+            <img src = "assets/images/thebox/commenting.png" class="responsive-img non-link-img landscape-img ideation-img" id="commenting">
+
+            <p class="work-section-text">Ultimately, we decided on a design concept like theBox because while it was definitely more of a hypothetical product, it afforded us an opportunity to generate conversation regarding virtual communities, online identities, and social media personas through the medium of an absurdist object.</p>
+
+
+
+            <p class="work-section-text"><span>Implementation:</span> TheBox is a service that will take your Instagram photos, run them through a reverse image search, and generate a list of corresponding nouns. Then, it will send this list to your social media "friends" and ask them to choose the top five nouns that exemplifies you the best. The five most popular nouns will then be sent, in physical form, to you in a nondescript box, effectively condensing your social media presence and the persona you have created for yourself into five things. </p>
+            
+            <img src = "assets/images/thebox/1.png" class="responsive-img non-link-img landscape-img process-img" id="1">
+            <img src = "assets/images/thebox/2.png" class="responsive-img non-link-img landscape-img process-img" id="2">
+            <img src = "assets/images/thebox/3.png" class="responsive-img non-link-img landscape-img process-img" id="3">
+            <img src = "assets/images/thebox/4.png" class="responsive-img non-link-img landscape-img process-img" id="4">
+
+            <p class="work-section-text">We prototyped the process on my own Instagram account. We used a Google reverse image search API to perform the object-generation on my photographs, and I sent out a survey to people on various social media platforms (Facebook, Instagram, Snapchat, etc.) asking people to choose five nouns that they felt exemplified me the most. I took the top five nouns and either bought the objects when they were easily-accessible or lasercut a small, miniature representation.</p>
+
+            <img src = "assets/images/thebox/one-phone.png" class="responsive-img non-link-img landscape-img personal-img" id="1">
+            <img src = "assets/images/thebox/two-phone.png" class="responsive-img non-link-img landscape-img personal-img" id="2">
+            <img src = "assets/images/thebox/three-phone.png" class="responsive-img non-link-img landscape-img personal-img" id="3">
+
+            <p class="work-section-text"><span>Conclusion:</span> We presented our final project at the Jacobs Hall Spring 2018 Design Showcase to students and faculty, where we also provided the final box of items generated when prototyping with my own personal Instagram account. Our project was lauded for its innovative approach to such an open-ended prompt and our risky decision to create a hypothetical, absurdist product.</p>  
+
+          </div>
+        </div>
+        
 
 
 
