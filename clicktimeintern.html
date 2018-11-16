@@ -54,23 +54,36 @@
         #sidebar-logo {
           max-height:300px;
         }
-        .prelim-img {
+        #previous{
+          max-height: 400px;
+        }
+
+        #slack {
+          max-height: 400px;
+        }
+
+        .feedback-img {
           max-height: 300px;
-          margin: 0rem 5rem 0rem 5rem;
+          margin: 1rem 0.5rem;
         }
 
-        .landscape-img {
-          max-height: 350px;
-        }
-
-        .mockup-img {
-          max-height: 350px ;
+        .initial-mockup-img {
+          max-height: 450px ;
           margin: 1rem 2rem ;
         }
 
-        #integrated {
+        .widget-img {
+          width:450px;
+          margin: 1rem 1rem;
+        }
+
+        .integrated-img {
           max-height: 400px;
-          margin-top: 2rem;
+          margin: 1rem 1rem;
+        }
+
+        #web-integration {
+          max-height: 400px;
         }
 
         #presentation {
@@ -94,8 +107,11 @@
           </div>
         </div>
         <div class ="row work-prelim">
-          <div class="col l11 offset-l1">
-            <p class="work-section-text">Creating a new mode of navigation and information-intake for our users on the existing ClickTime web-application.</p>
+          <div class="col l10 offset-l1">
+            <p class="work-section-text"><span>Summary:</span> Creating a new mode of navigation and information-intake for our users on the existing ClickTime web-application, while also paving the way for new potential updates to the product's outdated UI.</p>
+            <p class="work-section-text"><span>Role:</span> Product design, wireframing, initial prototyping</p>
+            <p class="work-section-text"><span>Tools:</span> Adobe Illustrator, MarvelApp</p>
+            <p class="work-section-text"><span>Time:</span> 3 months</p>
           </div>
         </div>
         <div class ="row work-prelim-photos">
@@ -105,25 +121,47 @@
         </div>
         <div class = "row bulk">
           <div class = "col l10 offset-l1">
-            <p class="work-section-text"><span>Problem:</span> Users were generally unhappy with the clunky, outdated feel of the current ClickTime web-application. They disliked how long it took to reach certain tools and information as well as the outdated UI. </p>
+            <p class="work-section-text"><span>Problem:</span> Users were generally unhappy with the clunky, unintuitive feel of the current ClickTime web-application. They disliked how long it took to reach certain tools and information as well as the outdated UI. </p>
 
-            <img src = "assets/images/clicktimeintern/2018.png" class="responsive-img non-link-img mockup-img" id="adobexd">
+            <img src = "assets/images/clicktimeintern/2018.png" class="responsive-img non-link-img" id="previous">
 
-            <p class="work-section-text"><span>Solution:</span> Our team of interns prototyped a ClickTime sidebar that focused both on both providing ease of navigation and better information-intake. Additionally, we aimed to address the concerns regarding the current application's UI by implementing more modern techniques and visuals inspired by other products.</p>
-            <p class="work-section-text"><span>Method:</span> We began by conducting a product landscape of existing sidebars and took note of common characteristics. We noticed that the majority of the sidebars in modern, successful products were non-intrusive, informative, and catalyzed change on the main application's interface.</p>
-            <img src = "assets/images/clicktimeintern/slack.png" class="responsive-img non-link-img landscape-img" id="slack">
-            <p class="work-section-text">We then created several mock-ups of a potential sidebar, first by sketching, then by tools like Adobe XD and MarvelApp.</p>
-            <img src = "assets/images/clicktimeintern/sketch.png" class="responsive-img non-link-img mockup-img" id="sketch">
-            <img src = "assets/images/clicktimeintern/adobexd.jpg" class="responsive-img non-link-img mockup-img" id="adobexd">
-            <img src = "assets/images/clicktimeintern/timesheetmockup.png" class="responsive-img non-link-img mockup-img" id="timesheet-mockup">
+            <p class="work-section-text"><span>Solution:</span> Our team of interns prototyped a ClickTime sidebar that focused both on both providing ease of navigation and better information-intake. Additionally, in utilizing ClickTime's new, yet mostly unused, style guide, we aimed to catalyze a change in the application's UI that future iterations would mimic.</p>
 
-            <p class="work-section-text"><span>Implementation:</span> Our sidebar eventually evolved to a minimalistic list of icons that, when hovered or clicked, yielded its corresponding "widget." This enabled our users to freely use both the sidebar and the main web-application interface without intrusion from one on the other. We also focused on using intuitive iconography and colors that could convey certain messages in one small panel without risking ovexposure to information. We managed to do all of this in React, overlaying it on top of the old implementation of the web-application. This was a major milestone because integration of the two tools had initially been an obstacle to upgrading ClickTime's UI.</p>
-            
-            <img src="assets/images/clicktimeintern/expenses.png" class="non-link-img prelim-img" id="expenses-widget">
-            <img src="assets/images/clicktimeintern/timesheet.png" class="non-link-img prelim-img" id="timesheet-widget">
-            <img src = "assets/images/clicktimeintern/integrated.jpg" class="responsive-img non-link-img" id="integrated">
+            <p class="work-section-text"><span>Ideation:</span> Initially, our prompt was simply to implement any change to ClickTime that we could both complete within three months and as well as justify to the company. Beginning the ideation process, we utilized old customer feedback from the past six months to pinpoint various pain points users had with the current ClickTime web application. We acknowledged that this was less ideal than conducting our own surveys, but given the time constraints as well as the open-endedness of the prompt, we decided that older customer feedback could still generate valuable insights because the ClickTime application itself had undergone few changes since the survey's release. </p>
 
-            <p class="work-section-text"><span>Conclusion:</span> After completing a working prototype of our sidebar, we presented it to the entire ClickTime office, including remote workers, in a one-hour presentation that, according to CEO of Mann Consulting Harold Mann, was "one of the most well-thought-out, well-put-together intern projects of ClickTime." The ClickTime sidebar has now been adopted by the current employees of ClickTime and is under code review.</p>
+            <img src = "assets/images/clicktimeintern/info-feedback.png" class="responsive-img non-link-img feedback-img" id="adobexd">
+            <img src = "assets/images/clicktimeintern/nav-feedback.png" class="responsive-img non-link-img feedback-img" id="sketch">
+            <img src = "assets/images/clicktimeintern/ui-feedback.png" class="responsive-img non-link-img feedback-img" id="timesheet-mockup">
+
+            <p class="work-section-text">Based on this customer feedback, we pinpointed three main problems of ClickTime we wanted to address: the lack of relevant information with the main interface, the inability to easily navigate between necessary pages, and ClickTime's outdated UI. Thus, we set out to find how other products addressed these issues, referencing other enterprise-level tools such as Slack and BambooHR. We discovered that these tools all had one function in common that also addressed our issues: a sidebar that provided quick information and catalyzed navigation on the product's main interface, all while seamlessly integrating with the rest of the product for a smooth user experience. For example, Slack's sidebar provides information with simple bolding and notification icons while allowing easy navigation through movement between different chats. We took these products into heavy consideration when we began implementing our sidebar. </p>
+            <img src = "assets/images/clicktimeintern/slack.png" class="responsive-img non-link-img" id="slack">
+
+            <p class="work-section-text"><span>Implementation:</span> We next focused on designing our sidebar, beginning with some initial sketches. As seen below, our first iterations involved a whole sidebar that could be toggled in and out, much like Slack's, with "widgets:" a timesheet widget, an out-of-office widget, a time-off widget, and an expenses widget. After some initial sketching, we then moved on to creating more visually-pleasing mockups on Adobe Illustrator. </p>
+
+            <img src = "assets/images/clicktimeintern/sketch.png" class="responsive-img non-link-img initial-mockup-img" id="sketch">
+            <img src = "assets/images/clicktimeintern/adobexd.jpg" class="responsive-img non-link-img initial-mockup-img" id="adobexd">
+
+            <p class="work-section-text">We knew we wanted to tackle a timesheet widget because it was one of the few tools in the ClickTime application that general users interacted consistently, yet had numerous flaws (ie. the current UI of ClickTime's timesheet system failed to display the customer's entire timesheet, especially if the user's pay period was more erratic). We also opted for addressing ClickTime's time-off and expenses tools because the information necessary to properly interact these functions was not always readily available (ie. knowing how many personal hours one had or how many expense sheets that had been approved).</p> 
+
+            <p class="work-section-text">One major change we made after initial sketching, though, included forgoing the out-of-office widget for privacy reasons. We replaced it with a stopwatch widget, which at the time was difficult for users to locate and track. We also decided against a whole sidebar that included all widgets when toggled in and out, opting instead for hoverable icons that revealed their corresponding widgets. This would enable the user to only interact with information that was relevant at the time. With these design decisions in mind, we moved on to prototyping our sidebar in MarvelApp.</p>
+
+            <img src = "assets/images/clicktimeintern/timesheet-widget.png" class="responsive-img non-link-img widget-img" id="timesheet-widget">
+            <img src = "assets/images/clicktimeintern/timeoff-widget.png" class="responsive-img non-link-img widget-img" id="timeoff-widget">
+            <img src = "assets/images/clicktimeintern/expenses-widget.png" class="responsive-img non-link-img widget-img" id="expenses-widget">
+            <img src = "assets/images/clicktimeintern/stopwatch-widget.png" class="responsive-img non-link-img widget-img" id="stopwatch-widget">
+
+            <p class="work-section-text">Our design was largely influenced by Google's Material Design principles, as these were also the guidelines following ClickTime's new style guide. Using MarvelApp was optimal because it had a quick learning curve and also allowed for cross-collaboration. Thus, our software-engineering interns could easily access designs as well as how a user interacted with certain elements. With the software-engineering interns now caught up to speed, we moved on to integrating the sidebar with the existing ClickTime web application.</p>
+
+            <p class="work-section-text">Upon integration, we encountered numerous edge cases like abnormal pay periods, non-personal time-off hours, and more. We efficiently addressed these by first mocking up specific edge cases on MarvelApp before sending them to our software-engineering interns. Additionally, we created a "Sidebar Spec" document that we continually updated with each change to provide quick, written documentation as well. In this way, we rectified communication issues between one another with both visual and written specifications. Consequently, integration of the sidebar with the web application became a process that occurred congruently with iterating on our initial design, putting us ahead of schedule. </p>
+
+            <img src = "assets/images/clicktimeintern/timesheet-integrated.png" class="responsive-img non-link-img integrated-img" id="timesheet-widget">
+            <img src = "assets/images/clicktimeintern/expenses-integrated.png" class="responsive-img non-link-img integrated-img" id="timeoff-widget">
+
+            <p class="work-section-text"><span>Conclusion:</span> After completing a working prototype of our sidebar, we presented it to the entire ClickTime office, including remote workers. In our presentation, we not only provided a complete demo of the sidebar, but also justified the validity of our final product through market research, claiming that it addressed our previously-defined problems through methods like reducing click-count to reach certain tools. Most notably, integration of our sidebar with the current web-application had deep implications because it addressed a general avoidance to update ClickTime's UI for fear of having to make signifant changes to current infrastructure. Furthermore, we provided a potential schedule for release of the sidebar to general users as well as hypothetical additions like implementing notifications and new widgets. </p>
+
+            <img src = "assets/images/clicktimeintern/integrated.jpg" class="responsive-img non-link-img" id="web-integration">
+
+            <p class="work-section-text">Ultimately, our presentation, according to CEO of Mann Consulting Harold Mann, was "one of the most well-thought-out, well-put-together intern projects of ClickTime." As of now, the ClickTime sidebar has been adopted by the current employees of ClickTime and is under code review.</p>
 
             <img src = "assets/images/clicktimeintern/presentation.jpg" class="responsive-img non-link-img" id="presentation">
             
