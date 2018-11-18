@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.title-row {
+  background-color: #65BCEB;
+  height:12rem;
+  text-align: center;
+}
+
+h1 {
+  font-family:'Roboto Mono';
+  letter-spacing: 25px;
+  color: white;
+  font-weight: 300;
+}
+
+#intro-imgs{
+  margin-top:5rem;
+  text-align:center;
+}
+
+.intro-img {
+  max-height:400px;
+  margin: 0rem 2rem;
+}
+
+.info-row {
+  margin-top: 4rem;
+}
+
+.info-row-title {
+  text-align: right;
+}
+
+h2 {
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.product-title-row h3 {
+  text-align: center;
+  font-family: 'Roboto Mono';
+  font-weight:400;
+  font-size: 25px;
+  color: #65BCEB;
+}
+
+.plusses {
+  text-align:right;
+}
+
+h4 {
+  font-family: 'Roboto Mono';
+  font-weight:400;
+  font-size: 20px;
+  color: #65BCEB;
+}
+
+.landscape-img {
+  max-height: 500px;
+  text-align: center;
+
+}
+
+#ideation-notes {
+  text-align: center;
+}
+
+#ideation-notes img {
+  max-height: 350px;
+}
+
+.sketch-row {
+  margin: 5rem 0rem;
+}
+
+.sketching-col-left {
+  text-align: right;
+}
+
+.sketch-img {
+  max-height: 300px;
+  transform:rotate(90deg);
+}
+
+.prototype-img {
+  max-height: 400px;
+}
+
